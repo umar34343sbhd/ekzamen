@@ -1,0 +1,317 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1380px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.holder{
+   display: flex;
+   align-items: center;
+   margin: 0 auto;
+   justify-content: space-between;
+}
+.header__top-ul{
+    display: flex;
+    gap: 24px;
+}
+.header__top-li-a{
+    color: #000000;
+}
+.header__top-li-a:hover{
+    color: #000000;
+    border-bottom: 2px solid black;
+    padding-bottom: 9px;
+}
+.header__hero{
+    background-image: url(../img/header.png);
+    width: 1300px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 160px;
+    
+}
+.header__hero-h1{
+    background: #FFFFFF;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+   
+}
+span{
+    color: #8EE901 ;
+}
+.header__hero-span{
+    background: linear-gradient(180deg, #8EE902 0%, #4F9C2C 100%);
+border-radius: 10000px;
+width: 60px;
+height: 60px;
+}
+.holder__3{
+    background: #F5F5F5;
+    width: 1300px;
+    height: 130px;
+}
+.header__hero-small{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.header__hero-ul{
+    display: flex;
+    gap: 65px;
+   
+}
+.header__hero_li{
+        
+}
+.header__hero_div{
+    padding-top: 1  0px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+}
+.main__popular{
+    text-align: center;
+}
+.main__camera{
+   padding-left: 50px;
+}
+.main__camera_much{
+   display: flex;
+   background: #FFFFFF;
+   border: 1px solid #EFEFEF;
+   width: 350px;
+   height: 410px;
+   
+}
+.main__father{
+
+}
+.holderr{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.main__father{
+    background: #FFFFFF;
+border: 1px solid #EFEFEF;
+width: 350px;
+height: 410px;
+display: block;
+
+}
+.img__main{
+    padding-left: 100px;
+}
+.main__camera_text{
+    padding-left: 90px;
+    padding-bottom: 40px;
+}
+.main__popular_ul{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+}
+.main__popular_li{
+    background: #FFFFFF;
+border: 1px solid #020101;
+text-align: center;
+box-sizing: border-box;
+height: 70px;
+padding-top: 10px
+}
+.main__btn{
+    background: #FFFFFF;
+box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+border-radius: 100px;
+border: none;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+padding-right: 10px ;
+
+}
+.main_butt{
+    background: linear-gradient(180deg, #8EE902 0%, #4F9C2C 100%);
+box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+border-radius: 100px;
+color: white;
+border: none;
+width: 100px;
+height: 50px;
+}
+.main__btnch{
+    padding-left: 50px;
+    padding-top: 40px;
+    display: flex ;
+    gap: 23px;
+}
+.main__drugoe{
+    text-align: center;
+    padding-top: 60px;
+}
+.main__grugoe_btn{
+    display: flex;
+    justify-content: center;
+    gap: 30px
+    ;
+}
+.btn__main{
+    width: 200px;
+    height: 50px;
+border:none ;
+color: white;
+background: linear-gradient(180deg, #8EE902 0%, #4F9C2C 100%);
+border-radius: 100px;
+}
+.button__main{
+    height: 60px;
+width: 200px;
+border: none;
+background: #FFFFFF;
+box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+border-radius: 100px;
+}
+.reklama__main{
+    background-image: url(../img/snow-women.png);
+    width: 350px;
+    height: 350px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    }
+    .reklama__main1{
+        background-image: url(../img/cameraph.png);
+        width: 350px;
+        height: 350px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .reklama__main2{
+        background-image: url(../img/mujik.png);
+        width: 350px;
+        height: 350px;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .reklama__main3{
+        background-image: url(../img/mountain.png);
+        width: 730px;
+        height: 350px;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .reklama__main4{
+        background-image: url(../img/jenwin.png);
+        width: 350px;
+        height: 350px;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .reklamnie__cardi{
+        padding-top: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+    .zarabotok__main{
+        background: #F5F5F5;
+        width: 1300px;
+        height: 300pxpx;
+    }
+    .kak__zarabativat{
+        padding-top: 70px;
+        text-align: center;
+    }
+    .zarabotok__p{
+        color: #75758A;
+    }
+    .zarabot__ul{
+        display: flex;
+        justify-content: center;
+        gap: 23px;
+    }
+    .zarabot__li{
+        width: 250px;
+        height: 150px;
+        background: #FFFFFF;
+box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+padding-left: 30px;
+padding-top: 20px;
+    }
+    .zero__btn{
+        text-align: center;
+    }
+    .button_zero{
+        width: 300px;
+        height: 50px;
+        border: none;
+        color: white;
+        background: linear-gradient(180deg, #8EE902 0%, #4F9C2C 100%);
+border-radius: 100px;
+    }
+    .novosti_main{
+        padding-top: 80px;
+        
+    }
+    .novost{
+        text-align: center
+    }
+    .novost__ul{
+        display: flex;
+        justify-content: center;
+        gap: 26px;
+    }
+    .btn__novost{
+        width: 200px;
+        height: 50px;
+        border: none;
+        color: white;
+        background: linear-gradient(180deg, #8EE902 0%, #4F9C2C 100%);
+border-radius: 100px;
+
+    }
+    .novosti__btn{
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 40px;
+
+    }
+    .map__main{
+        background-image: url(../img/for\ map.png);
+        width: 1380px;
+        height: 350px;
+    }
+    .map__li{
+        background: #FFFFFF;
+box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+width: 250px;
+height: 140px;
+padding-left: 20px;
+    }
+    .map__ul{
+        display:flex;
+        justify-content: space-evenly;
+        padding-top: 100px;
+
+    }
+    .map__li_p{
+        color: #75758A;
+    }
+    .map__ul_li{
+        color: #60B021;
+    }
